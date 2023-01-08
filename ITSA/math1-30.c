@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int is_prime(int c){
+int is_prime(int c){ //質數判斷function
 	if(c==1){
 		return 0;
 	}else{

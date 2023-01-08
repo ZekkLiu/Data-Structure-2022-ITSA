@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int is_prime(int c){
+int is_prime(int c){ // 質數判斷function
 	if(c==1){
 		return 1;
 	}else{
@@ -16,7 +16,7 @@ int is_prime(int c){
 int main(){
     int a;
     scanf("%d", &a);
-    a--;
+    a--; // a本身不算
     while(is_prime(a)) a--;
     printf("%d\n", a);
     return 0;

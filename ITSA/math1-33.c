@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int pnFunction(int c){
+int pnFunction(int c){ // perfect number function
     int sum=0;
     for(int i=1; i<c; i++){
         if(c%i==0) sum += i;
@@ -17,7 +17,7 @@ int main(){
     }
     for(int i=0; i<j; i++){
         printf("%d", ans[i]);
-        if(i==j-1) printf("\n");
+        if(i==j-1) printf("\n"); // 嚴格比對
         else printf(" ");
     }
     return 0;
